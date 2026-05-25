@@ -75,7 +75,7 @@ If you received this as a ZIP file, extract it to a folder on your computer.
 
 If using Git:
 ```bash
-git clone <repository-url>
+git clone https://github.com/namkiet/CS426-Simple-Layout
 ```
 
 ### Step 2 — Open in Android Studio
