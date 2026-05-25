@@ -1,0 +1,87 @@
+# ============================================
+#  Android Studio / Gradle
+# ============================================
+
+# Build outputs
+/build/
+app/build/
+*/build/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Gradle cache
+.gradle-cache/
+
+# Local configuration (contains SDK path)
+local.properties
+
+# ============================================
+#  IntelliJ / Android Studio IDE
+# ============================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures/
+
+# ============================================
+#  Kotlin
+# ============================================
+
+.kotlin/
+
+# ============================================
+#  Native (C/C++) builds
+# ============================================
+
+.externalNativeBuild/
+.cxx/
+
+# ============================================
+#  Signing & Keystore
+# ============================================
+
+*.jks
+*.keystore
+signing.properties
+
+# ============================================
+#  OS generated files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+#  Misc
+# ============================================
+
+# Proguard mapping files
+**/mapping/
+
+# Log files
+*.log
+
+# Google Services (uncomment if you don't want to track it)
+# google-services.json
